@@ -1,7 +1,7 @@
 <template>
   <div id="favorites" class="container">
     <h1>{{ $t('fav') }}</h1>
-    <router-link class="link" to="/">
+    <router-link class="link" to="/weather_app/">
       {{ $t('toMain') }}
     </router-link>
 
