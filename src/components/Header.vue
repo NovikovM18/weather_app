@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <router-link to="/">
+    <router-link to="/weather_app/">
       <img class="logo" src="../assets/logo.png" alt="logo">
     </router-link>
     
@@ -11,7 +11,7 @@
         </option>
       </select>
 
-      <router-link to="/readme">
+      <router-link to="/weather_app/readme">
         READ ME
       </router-link>
     </div>

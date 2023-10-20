@@ -10,7 +10,7 @@
       <p>cities: https://api.swiftcomplete.com/v1/places/  (the key is available until October 30)</p>
     </div>
 
-    <router-link class="link" to="/">
+    <router-link class="link" to="/weather_app/">
       {{ $t('toMain') }}
     </router-link>
   </div>
