@@ -2,17 +2,17 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/',
+    path: '/weather_app/',
     name: 'home',
     component: () => import('../components/Weather.vue')
   },
   {
-    path: '/favorites',
+    path: '/weather_app/favorites',
     name: 'favorites',
     component: () => import('../components/Favorites.vue')
   },
   {
-    path: '/readme',
+    path: '/weather_app/readme',
     name: 'readme',
     component: () => import('../components/ReadMe.vue')
   },

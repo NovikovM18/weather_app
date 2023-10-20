@@ -2,7 +2,7 @@
   <div id="weather" class="container">
     <h1>{{ $t('weather') }}</h1>
     
-    <router-link class="link" to="/favorites">
+    <router-link class="link" to="/weather_app/favorites">
       {{ $t('toFav') }}
     </router-link>
     
