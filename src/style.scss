@@ -1,0 +1,70 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  @font-face {
+    font-family: 'Ysabeau';
+    src: local('Ysabeau'),
+    url(../src/assets/fonts/YsabeauInfant-VariableFont_wght.ttf) format('truetype');
+  }
+}
+
+body {
+  font-family: 'Ysabeau';
+  color: rgb(73, 73, 73);
+  text-rendering: optimizeLegibility;
+  scrollbar-width: thin;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  &::-webkit-scrollbar {
+    width: 8px;
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background: rgba(0,0,0,0.4);
+  }
+
+  background-color: #f3f3f3;
+}
+
+#app {
+  padding: 24px;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  a {
+    font-weight: bold;
+    color: black;
+    text-decoration-line: none;
+    user-select: none; 
+  }
+
+  button {
+    padding: 2px 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border: 1px solid gray;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    cursor: pointer;
+  }
+}
